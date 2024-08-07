@@ -1,46 +1,103 @@
-# Getting Started with Create React App
+# Zohar Singer's Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the repository for my personal portfolio website. This project showcases my skills as a front-end engineer and provides information about my experience, projects, and technical abilities.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Deployment](#deployment)
+- [Contact](#contact)
 
-### `yarn start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This portfolio website is built using React and Tailwind CSS. It's designed to be responsive, accessible, and performant, demonstrating best practices in modern web development.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Visit the live site: [zoharsinger.com](https://zoharsinger.com)
 
-### `yarn test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Responsive design that works on desktop, tablet, and mobile devices
+- Dark theme for improved readability and modern aesthetics
+- Sections for About Me, Experience, Skills, and Projects
+- Interactive elements to showcase front-end development skills
+- Optimized performance and accessibility
 
-### `yarn build`
+## Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Firebase Hosting
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running, follow these steps:
 
-### `yarn eject`
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/portfolio-website.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Navigate to the project directory:
+   ```
+   cd portfolio-website
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
+   ```
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Start the development server:
+   ```
+   yarn start
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Learn More
+## Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This site is deployed using Firebase Hosting. To deploy your own version:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Install the Firebase CLI globally if you haven't already:
+   ```
+   yarn global add firebase-tools
+   ```
+
+2. Log in to Firebase:
+   ```
+   firebase login
+   ```
+
+3. Initialize your project (run this from your project root):
+   ```
+   firebase init hosting
+   ```
+   Follow the prompts, and when asked about your public directory, enter `build`.
+
+4. Build your project:
+   ```
+   yarn build
+   ```
+
+5. Deploy to Firebase Hosting:
+   ```
+   firebase deploy
+   ```
+
+Your site should now be live at the Firebase Hosting URL provided in the console output.
+
+## Contact
+
+Zohar Singer - [zohar@alumni.upenn.edu](mailto:zohar@alumni.upenn.edu)
+
+Project Link: [https://github.com/yourusername/portfolio-website](https://github.com/yourusername/portfolio-website)
+
+---
+
+Feel free to customize this portfolio template to showcase your unique skills and projects!
