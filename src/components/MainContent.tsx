@@ -94,7 +94,7 @@ const MainContent = ({ theme }: MainContentProps) => {
 								alt="ModelAssistant.ai"
 								className="w-full h-40 object-cover mb-4 rounded"
 							/>
-							<a href="#" className="text-blue-400 hover:underline">
+							<a href="example.com" className="text-blue-400 hover:underline">
 								View Project
 							</a>
 						</div>
