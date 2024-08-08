@@ -24,4 +24,4 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PORTFOLIO_8987E }}
           channelId: live
-          projectId: model-manager-00
+          projectId: portfolio-8987e
