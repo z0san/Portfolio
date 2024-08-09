@@ -13,7 +13,15 @@ const MainContent = ({ theme }: MainContentProps) => {
 			{/* Skills Section */}
 			<section id="skills" className="py-20">
 				<div className="container mx-auto">
-					<h2 className="text-3xl font-bold mb-8 text-center">Skills</h2>
+					<h2
+						className={`text-3xl font-bold mb-8 text-left sticky top-0 z-10 p-5 rounded-lg ${
+							theme === "dark"
+								? "bg-gray-700 text-gray-300"
+								: "bg-gray-200 text-gray-700"
+						}`}
+					>
+						Skills
+					</h2>
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 						<div className="bg-gray-800 p-6 rounded-lg">
 							<h3 className="text-xl font-bold mb-4">Languages</h3>
