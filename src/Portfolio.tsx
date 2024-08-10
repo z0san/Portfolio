@@ -31,13 +31,13 @@ const Portfolio = () => {
 	return (
 		<div
 			className={`${
-				theme === "dark" ? "bg-gray-900 text-white" : "bg-gray-50 text-black"
-			}  min-h-screen flex w-full`}
+				theme === "dark" ? "bg-gray-900 text-white" : "bg-white text-black"
+			}  min-h-screen flex flex-col xl:flex-row w-full`}
 		>
-			<div className="w-1/2 fixed top-0 left-0">
+			<div className="xl:w-1/2 xl:fixed top-0 left-0">
 				<Hero theme={theme} setTheme={setTheme} />
 			</div>
-			<div className="w-1/2 ml-[50%]">
+			<div className="w-full xl:w-1/2 xl:ml-[50%]">
 				<MainContent theme={theme} />
 			</div>
 		</div>
