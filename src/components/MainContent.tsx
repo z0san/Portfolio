@@ -1,7 +1,6 @@
 import React from "react"
 import Experience from "./Experience"
 import Skills from "./Skills"
-import Projects from "./Projects"
 
 interface MainContentProps {
 	theme: "dark" | "light"

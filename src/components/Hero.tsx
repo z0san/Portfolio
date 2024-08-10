@@ -27,7 +27,7 @@ const Hero = ({ theme, setTheme }: HeroProps) => {
 					<div className="xl:py-10">
 						<div className="container">
 							<p
-								className={`text-lg max-w-3xl text-sm md:text-base xl:text-xl ${
+								className={`max-w-3xl text-sm md:text-base xl:text-xl ${
 									theme === "dark" ? "text-gray-300" : "text-gray-700"
 								}`}
 							>
