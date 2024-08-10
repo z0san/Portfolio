@@ -1,8 +1,5 @@
 import React, { useState } from "react"
 
-const aClass =
-	"flex flex-col md:flex-row items-start justify-center p-4 md:p-6 rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105"
-
 interface ExperienceProps {
 	theme: "dark" | "light"
 }
