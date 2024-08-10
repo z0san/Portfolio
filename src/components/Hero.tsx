@@ -31,13 +31,13 @@ const Hero = ({ theme, setTheme }: HeroProps) => {
 									theme === "dark" ? "text-gray-300" : "text-gray-700"
 								}`}
 							>
-								As a passionate and innovative software engineer, I thrive on
-								tackling complex challenges and creating elegant solutions. With
-								a strong foundation in both front-end and back-end technologies.
-								My experience as CTO at CreativesApp has honed my leadership
-								skills and ability to drive projects from conception to
-								completion. I'm constantly seeking new opportunities to learn
-								and grow in the ever-evolving world of technology.
+								As a full stack software engineer with a passion for innovation,
+								I thrive on solving complex challenges and building elegant
+								solutions. My experience as CTO at CreativesApp has honed my
+								leadership skills and ability to drive projects from conception
+								to completion. With a strong foundation in both front-end and
+								back-end technologies, I'm constantly seeking new opportunities
+								to learn and grow in the ever-evolving world of technology.
 							</p>
 						</div>
 					</div>

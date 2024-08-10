@@ -13,7 +13,7 @@ const experienceData = [
 		location: "London, UK",
 		dateRange: "September 2023 - Present",
 		description:
-			"Led technical development of a project management and fintech platform for the creative industry. Managed a cross-functional team of 4, establishing engineering best practices. Developed analytics tracking system to measure user engagement and platform performance.",
+			"Led technical development of a project management and fintech platform for the creative industry. Managed a cross-functional team of 4, establishing engineering best practices and CI/CD pipelines. Developed analytics tracking system to measure user engagement and platform performance.",
 		image: "/experience/creativesapp.jpg",
 	},
 	{
@@ -35,7 +35,7 @@ const experienceData = [
 		location: "Seattle WA",
 		dateRange: "June 2021 - August 2021",
 		description:
-			"Built scalable features for AWS - Lookout for Metrics. Implemented back inference for AI inference on specified past data. Collaborated with cross-functional teams and gained experience with various AWS services.",
+			"Contributed to scalable Big Data pipeline inference tolls including running back tests for AI inference on specified past data. Collaborated with cross-functional teams and gained experience with various AWS services.",
 		image: "/experience/amazon.jpg",
 	},
 ]
