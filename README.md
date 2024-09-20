@@ -1,4 +1,5 @@
 # Zohar Singer's Portfolio Website
+[zoharsinger.com](https://zoharsinger.com)
 
 Welcome to the repository for my personal portfolio website. This project showcases my skills as a front-end engineer and provides information about my experience, projects, and technical abilities.
 
